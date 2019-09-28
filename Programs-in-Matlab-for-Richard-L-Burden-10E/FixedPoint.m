@@ -10,7 +10,8 @@ function p = FixedPoint(g, p_0, TOL, N_0)
 % Example: 
 % FixedPoint(@(x) cos(x), pi/4, 1e-4, 20);
 
-% GMT+8 2019/9/24 17:10 By Rex HUANG
+% Matlab R2017b
+% GMT+8 2019/9/28 18:24 By Rex HUANG
 % Github: github.com/zhiruihuang
 
 %% Step 1

@@ -11,7 +11,8 @@ function p = Bisection(f, a, b, TOL, N_0)
 % Example: 
 % Bisection(@(x) x^3+4*x^2-10, 1, 2, 1e-4, 15);
 
-% GMT+8 2019/9/24 17:08 By Rex HUANG
+% Matlab R2017b
+% GMT+8 2019/9/28 18:23 By Rex HUANG
 % Github: github.com/zhiruihuang
 
 %% Step 1

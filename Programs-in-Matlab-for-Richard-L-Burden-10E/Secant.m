@@ -10,7 +10,8 @@ function p = Secant(f, p_0, p_1, TOL, N_0)
 % Example: 
 % Secant(@(x) cos(x)-x, 1/2, pi/4, 1e-7, 10);
 
-% GMT+8 2019/9/25 14:19 By Rex HUANG
+% Matlab R2017b
+% GMT+8 2019/9/28 18:24 By Rex HUANG
 % Github: github.com/zhiruihuang
 
 %% Step 1

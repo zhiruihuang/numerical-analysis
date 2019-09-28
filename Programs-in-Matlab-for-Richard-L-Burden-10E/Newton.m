@@ -10,7 +10,8 @@ function p = Newton(f, p_0, TOL, N_0)
 % Example: 
 % Newton(@(x) cos(x)-x, pi/4, 1e-10, 10);
 
-% GMT+8 2019/9/24 17:11 By Rex HUANG
+% Matlab R2017b
+% GMT+8 2019/9/28 18:24 By Rex HUANG
 % Github: github.com/zhiruihuang
 
 %% Compute the 1st derivative function of function f
@@ -29,7 +30,7 @@ while true
     
     % Step 3
     if df(p_0) == 0
-        fprintf("Failure, zero derivative. \n");
+        fprintf('Failure, zero derivative. \n');
         break;
     end
     p = p_0 - f(p_0)/df(p_0);
